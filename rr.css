@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+}
+body{
+    background-image: url(mo/fun.png.jpg);
+    background-attachment: stretch;
+    background-size: cover;
+    
+}
+.navbar{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+nav:hover{
+    color: aqua;
+}
+h2{
+    color: white;
+}
+nav{
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+.hero{
+    background-color: aqua;
+    text-align: center;
+    font-style: italic;
+}
+h1{
+    color: white;
+}
+.btn{
+    background-color: blue;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: red;
+}
+.car{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+   
+    
+}
+.card{
+    transition: 0.5s;
+    background-color: aqua;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.btn1{
+    background-color: blue;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.btn1:hover{
+    background-color: red;
+}
+img{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+
+
